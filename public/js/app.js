@@ -1,5 +1,3 @@
-console.log('this is the js inside html')
-
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
 const mseg1 = document.querySelector('#msg1')
