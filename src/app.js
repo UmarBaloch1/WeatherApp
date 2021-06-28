@@ -6,7 +6,7 @@ const request = require('request')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-const port = process.argv.PORT || 3000
+const port = process.env.PORT || 3000
 
 // defines path for express config
 const indexpath = path.join(__dirname,'../public')
