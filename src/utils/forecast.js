@@ -10,7 +10,7 @@ request({url, json:true}, (error,{body}) =>{
     if(error){
         callback('Unable to connect to the Internet',undefined)
     }
-     if(body.cod===400){
+    else if(body.cod===400){
          callback('unable to find location', undefined)
     }
      else{
